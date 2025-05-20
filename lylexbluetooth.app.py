@@ -13,7 +13,7 @@ st.title("┬─┬ ☕︎ノ( º , ºノ) internet café")
 st.subheader("*prototype")
 
 # Display "song of the day"
-st.write("🎵 **Song of the Day:** Good Morning Baby - Dan Wilson & Bic Runga")
+st.write("🎵 **song of the day:** Good Morning Baby - Dan Wilson & Bic Runga")
 
 # Embed Apple Music player
 st.components.v1.html(apple_music_embed, height=175)
