@@ -23,11 +23,11 @@ st.header("Projects")
 projects = {
     "American Sign Language Finger Spelling Recognition": "https://www.strongasl.com/learn/home",
     "Asian American Philippine Basketball Association Statbook": "https://www.facebook.com/photo.php?fbid=975154716181166&set=a.105158656514114&type=3",
-    "Photography Projects": "https://vsco.co/spaces/680333f275b118ae4c57213f"
+    "Photography Projects": "http://vsco.co/bluetoothbrownheartdotmp4?share=MTc0NTAzOTc3Mg%3D%3D"
 }
 
 for project, link in projects.items():
     st.write(f"[{project}]({link})")
 
 # Footer (added working link)
-st.write("🔗 [Visit my full portfolio](https://www.datascienceportfol.io/lyleblueberry)")
+st.write("🔗 [Visit my full portfolio]")
