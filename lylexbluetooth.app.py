@@ -12,7 +12,7 @@ src="https://embed.music.apple.com/us/song/good-morning-baby/1445666384"></ifram
 st.title("┬─┬ ☕︎ノ( º , ºノ) internet café")
 st.subheader("*prototype")
 
-# Display "Song of the Day"
+# Display "song of the day"
 st.write("🎵 **Song of the Day:** Good Morning Baby - Dan Wilson & Bic Runga")
 
 # Embed Apple Music player
