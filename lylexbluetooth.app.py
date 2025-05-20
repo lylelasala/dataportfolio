@@ -19,15 +19,15 @@ st.write("🎵 **Song of the Day:** Good Morning Baby - Dan Wilson & Bic Runga")
 st.components.v1.html(apple_music_embed, height=175)
 
 # Portfolio projects
-st.header("Projects")
+st.header("projects")
 projects = {
-    "American Sign Language Finger Spelling Recognition": "https://www.strongasl.com/learn/home",
-    "Asian American Philippine Basketball Association Statbook": "https://www.facebook.com/photo.php?fbid=975154716181166&set=a.105158656514114&type=3",
-    "Photography Projects": "http://vsco.co/bluetoothbrownheartdotmp4?share=MTc0NTAzOTc3Mg%3D%3D"
+    "american sign language finger spelling recognition": "https://www.strongasl.com/learn/home",
+    "asian american philippine basketball association statbook": "https://www.facebook.com/photo.php?fbid=975154716181166&set=a.105158656514114&type=3",
+    "photography projects": "http://vsco.co/bluetoothbrownheartdotmp4?share=MTc0NTAzOTc3Mg%3D%3D"
 }
 
 for project, link in projects.items():
     st.write(f"[{project}]({link})")
 
 # Footer (added working link)
-st.write("🔗 [Visit my full portfolio]")
+st.write("🔗 [visit my full portfolio]")
