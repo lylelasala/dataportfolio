@@ -23,7 +23,7 @@ st.header("projects")
 projects = {
     "american sign language finger spelling recognition": "https://www.strongasl.com/learn/home",
     "asian american philippine basketball association statbook": "https://www.facebook.com/photo.php?fbid=975154716181166&set=a.105158656514114&type=3",
-    "photography": "http://vsco.co/bluetoothbrownheartdotmp4?share=MTc0NTAzOTc3Mg%3D%3D"
+    "photography": "http://vsco.co/bluetoothbrownheartdotmp4?share=MTc0NTAzOTc3Mg%3D%3D",
     "soundtrap": "https://www.soundtrap.com/home/creator/projects/folders/63644883"
 }
 
@@ -31,4 +31,4 @@ for project, link in projects.items():
     st.write(f"[{project}]({link})")
 
 # Footer (added working link)
-st.write("🔗 [visit my full portfolio]")
+st.write("🔗 [Visit my full portfolio]")
