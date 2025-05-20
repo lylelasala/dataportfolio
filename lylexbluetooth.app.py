@@ -9,8 +9,8 @@ src="https://embed.music.apple.com/us/song/good-morning-baby/1445666384"></ifram
 """
 
 # Streamlit app layout
-st.title("┬─┬ ☕︎ノ( º , ºノ) Internet Café")
-st.subheader("Prototype")
+st.title("┬─┬ ☕︎ノ( º , ºノ) internet café")
+st.subheader("prototype")
 
 # Display "Song of the Day"
 st.write("🎵 **Song of the Day:** Good Morning Baby - Dan Wilson & Bic Runga")
