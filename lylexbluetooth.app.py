@@ -19,7 +19,7 @@ st.write("🎵 **song of the day:** Good Morning Baby - Dan Wilson & Bic Runga")
 st.components.v1.html(apple_music_embed, height=175)
 
 # Portfolio projects
-st.header("projects")
+st.header("proj.")
 projects = {
     "american sign language finger spelling recognition": "https://www.strongasl.com/learn/home",
     "asian american philippine basketball association statbook": "https://www.facebook.com/photo.php?fbid=975154716181166&set=a.105158656514114&type=3",
