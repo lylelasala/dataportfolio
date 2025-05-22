@@ -5,7 +5,7 @@ apple_music_embed = """
 <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0"
 height="150" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;"
 sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-src="https://embed.music.apple.com/us/song/endlessly-interlude/1615498868"></iframe>
+src="https://embed.music.apple.com/us/song/beautiful-girls/1650862741"></iframe>
 """
 
 # Streamlit app layout
@@ -13,7 +13,7 @@ st.title("┬─┬ ☕︎ノ( º , ºノ) internet café")
 st.subheader("*prototype")
 
 # Display "Song of the Day"
-st.write("🔊 **song of the day:** endlessly interlude - omar apollo")
+st.write("🔊 **Song of the Day:** Beautiful Girls - Sally Boy")
 
 # Embed Apple Music player
 st.components.v1.html(apple_music_embed, height=175)
@@ -31,4 +31,4 @@ for project, link in projects.items():
     st.write(f"[{project}]({link})")
 
 # Footer (added working link)
-st.write("🔗 [Visit my full portfolio]")
+st.write("🔗 [Visit my full portfolio]()")
