@@ -13,7 +13,7 @@ st.title("┬─┬ ☕︎ノ( º , ºノ) internet café")
 st.subheader("*prototype")
 
 # Display "Song of the Day"
-st.write("🔊 **Song of the Day:** Beautiful Girls - Sally Boy")
+st.write("🔊 **song of the day:** beautiful girls - sally boy")
 
 # Embed Apple Music player
 st.components.v1.html(apple_music_embed, height=175)
