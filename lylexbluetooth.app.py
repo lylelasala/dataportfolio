@@ -23,7 +23,8 @@ st.components.v1.html(soundcloud_embed, height=155)
 # Portfolio Projects
 st.header("proj.")
 projects = {
-    "soundtrap": "https://www.soundtrap.com/home/creator/projects/folders/63644883"
+    "soundtrap": "https://www.soundtrap.com/home/creator/projects/folders/63644883",
+    "yt": "https://youtube.com/playlist?list=PL26G5xKQCDOoiWrix94v6coGvchbwQHqI&si=3m16g4CKtS21rOY6"
 }
 
 for project, link in projects.items():
